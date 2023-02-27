@@ -3,7 +3,6 @@ import random
 def click():
     a = random.randint(1, 3)
     canvas.delete(ALL)
-    print(a)
     if a == 1:
         x1 = random.randint(110, 450)
         y1 = random.randint(110, 450)
